@@ -1,0 +1,1 @@
+pink-mobile-background-image
