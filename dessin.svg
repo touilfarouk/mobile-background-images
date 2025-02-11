@@ -7,44 +7,63 @@
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  
+
+  <!-- Background Gradient -->
   <defs>
-    <pattern id="flowerPattern" width="100" height="100" patternUnits="userSpaceOnUse">
-      <!-- Flower design -->
-      <circle cx="50" cy="50" r="15" fill="#FFB6C1" />  <!-- Flower center -->
-      <ellipse cx="50" cy="30" rx="15" ry="20" fill="#FF69B4" transform="rotate(0 50 50)"/>
-      <ellipse cx="50" cy="70" rx="15" ry="20" fill="#FF69B4" transform="rotate(0 50 50)"/>
-      <ellipse cx="30" cy="50" rx="15" ry="20" fill="#FF69B4" transform="rotate(90 50 50)"/>
-      <ellipse cx="70" cy="50" rx="15" ry="20" fill="#FF69B4" transform="rotate(90 50 50)"/>
-      <!-- Leaves -->
-      <path d="M35 80 Q45 100 55 80 Q65 100 75 80" fill="#90EE90" stroke="#228B22" stroke-width="2"/>
-    </pattern>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6F5E6" /> <!-- Light green -->
+      <stop offset="100%" stop-color="#F0F8FF" /> <!-- Light blue -->
+    </linearGradient>
   </defs>
 
-  <g id="layer2">
-    <rect
-       width="100%"
-       height="100%"
-       fill="url(#flowerPattern)"
-       opacity="0.3"/>
-    
-    <rect
-       width="1129.8258"
-       height="2444.9668"
-       x="0"
-       y="0"
-       fill="none"
-       stroke="#333"
-       stroke-width="2"/>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#backgroundGradient)" />
+
+  <!-- Abstract Sun -->
+  <circle cx="200" cy="200" r="150" fill="#FFD700" opacity="0.3" />
+  <circle cx="200" cy="200" r="120" fill="#FFA500" opacity="0.2" />
+
+  <!-- Abstract Fields -->
+  <rect x="0" y="1200" width="100%" height="1236" fill="#8FBC8F" opacity="0.6" /> <!-- Green field -->
+  <rect x="0" y="1400" width="100%" height="1036" fill="#6B8E23" opacity="0.7" /> <!-- Darker green field -->
+  <rect x="0" y="1600" width="100%" height="836" fill="#556B2F" opacity="0.8" /> <!-- Darkest green field -->
+
+  <!-- Abstract Crops -->
+  <g transform="translate(100, 1500)">
+    <!-- Wheat stalks -->
+    <line x1="50" y1="0" x2="50" y2="200" stroke="#DAA520" stroke-width="10" />
+    <line x1="150" y1="0" x2="150" y2="250" stroke="#DAA520" stroke-width="10" />
+    <line x1="250" y1="0" x2="250" y2="300" stroke="#DAA520" stroke-width="10" />
+    <!-- Wheat grains -->
+    <circle cx="50" cy="50" r="10" fill="#FFD700" />
+    <circle cx="150" cy="100" r="15" fill="#FFD700" />
+    <circle cx="250" cy="150" r="20" fill="#FFD700" />
   </g>
 
-  <!-- Original colored rectangles (now on top of floral background) -->
-  <g id="layer1">
-    <rect id="rect1" width="212.70033" height="80.701843" x="5.9778814" y="-98.635605" fill="#442178"/>
-    <rect id="rect2" width="209.1355" height="71.73497" x="468.36569" y="-89.668747" fill="#e9afaf"/>
-    <rect id="rect3" width="211.51204" height="77.712883" x="235.59143" y="-95.646629" fill="#ff00ff"/>
-    <rect id="rect4" width="209.1355" height="65.757057" x="694.54108" y="-83.690811" fill="#d40055"/>
-    <rect id="rect5" width="207.94724" height="59.77914" x="926.27777" y="-80.701813" fill="#ff5555"/>
+  <!-- Abstract Trees -->
+  <g transform="translate(800, 1300)">
+    <!-- Tree trunks -->
+    <rect x="0" y="0" width="30" height="200" fill="#8B4513" />
+    <rect x="100" y="0" width="30" height="250" fill="#8B4513" />
+    <rect x="200" y="0" width="30" height="300" fill="#8B4513" />
+    <!-- Tree leaves -->
+    <circle cx="15" cy="-50" r="80" fill="#228B22" opacity="0.6" />
+    <circle cx="115" cy="-75" r="100" fill="#228B22" opacity="0.6" />
+    <circle cx="215" cy="-100" r="120" fill="#228B22" opacity="0.6" />
+  </g>
+
+  <!-- Abstract Clouds -->
+  <g transform="translate(300, 100)">
+    <circle cx="0" cy="0" r="80" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="100" cy="0" r="100" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="200" cy="0" r="120" fill="#FFFFFF" opacity="0.8" />
+  </g>
+
+  <!-- Abstract Irrigation -->
+  <g transform="translate(500, 1800)">
+    <line x1="0" y1="0" x2="500" y2="0" stroke="#87CEEB" stroke-width="10" stroke-dasharray="20,10" />
+    <circle cx="0" cy="0" r="15" fill="#87CEEB" />
+    <circle cx="500" cy="0" r="15" fill="#87CEEB" />
   </g>
 
 </svg>
