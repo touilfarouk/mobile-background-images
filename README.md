@@ -5,7 +5,7 @@ A collection of high-quality mobile background images.
 
 ## Preview
 
-| Image 1 | Image 2 |
+| pink-mobile-background-image 1 | pink-mobile-background-image 2 |
 |---------|---------|
 | ![pink-mobile-background-image 1](images/pink-mobile-background-image.png) | ![pink-mobile-background-image 4](images/pink-mobile-background-image.png) |
 | ![pink-mobile-background-image 2](images/pink-mobile-background-image.png) | ![pink-mobile-background-image 5](images/pink-mobile-background-image.png) |
