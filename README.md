@@ -1,15 +1,20 @@
-
 # Mobile Backgrounds
 
 A collection of high-quality mobile background images.
 
 ## Preview
 
-| pink-mobile-background-image 1 | pink-mobile-background-image 2 |
-|---------|---------|
-| ![pink-mobile-background-image 1](images/pink-mobile-background-image.png) | ![pink-mobile-background-image 4](images/pink-mobile-background-image.png) |
-| ![pink-mobile-background-image 2](images/pink-mobile-background-image.png) | ![pink-mobile-background-image 5](images/pink-mobile-background-image.png) |
-| ![pink-mobile-background-image 3](images/pink-mobile-background-image.png) | ![pink-mobile-background-image 6](images/pink-mobile-background-image.png) |
+| Pink Mobile Background 1 | Pink Mobile Background 2 |
+|--------------------------|--------------------------|
+| ![Pink Mobile Background 1](images/pink-mobile-background-image.png) | ![Pink Mobile Background 2](images/pink-mobile-background-image.png) |
+
+| Pink Mobile Background 3 | Pink Mobile Background 4 |
+|--------------------------|--------------------------|
+| ![Pink Mobile Background 3](images/pink-mobile-background-image.png) | ![Pink Mobile Background 4](images/pink-mobile-background-image.png) |
+
+| Pink Mobile Background 5 | Pink Mobile Background 6 |
+|--------------------------|--------------------------|
+| ![Pink Mobile Background 5](images/pink-mobile-background-image.png) | ![Pink Mobile Background 6](images/pink-mobile-background-image.png) |
 
 ## How to Use
 - Download images from the `images/` folder.
